@@ -1,33 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Slider</title>
-    <link rel="stylesheet" href="style.css" </head>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <div class="slider-container">
-        <div class="slides">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6yFzIYiRlIzc_Nb_KD3lmSmvtmJxr4eboXw&s"
-                </div>
-            <div class="slide">
-                <img src="https://i.ytimg.com/vi/w8XnOVtO49Q/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD4JHzqUyShBi_TsJ7V-1hNCMIRXA"
-                    </div>
-            </div>
-            <div class="slide">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjKUiQqVGQAGzu-wv7dKzgkknLuBgY83ra0g&s"
-                    </div>
-                <button class="prev" onclick="prevSlide()">&#10094</button>
-                <button class="next" onclick="nextSlide()">&#10095</button>
 
+  <div class="slider-container">
+    <div class="slider">
+      <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L2pvYjY4Ni0yNTMteC5qcGc.jpg" class="slide active">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfxKdtGpVONwPdTVQb93KT2voG2FX1WX9d9A&s" class="slide">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0VVhoZTpShfWZI5LXDpMvGcfiK4Ta8nd5tA&s" class="slide">
+    </div>
 
+    <button class="prev" onclick="prevSlide()">&#10094;</button>
+    <button class="next" onclick="nextSlide()">&#10095;</button>
+  </div>
 
-
-
-            </div>
-
+  <script src="script.js"></script>
 </body>
-
 </html>
